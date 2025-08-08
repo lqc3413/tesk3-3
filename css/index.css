@@ -1,0 +1,68 @@
+.info-section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* 标签导航样式 */
+.tab-container {
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 15px;
+}
+
+.tab {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.tab.active {
+  color: #1890ff;
+  border-bottom: 2px solid #1890ff;
+}
+
+/* 信息列表样式 */
+.info-list {
+  border: 1px solid #000000;
+  border-radius: 4px;
+  padding: 10px;
+  height: 480px;
+  overflow: scroll;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 10px;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.3s;
+}
+
+.info-item:last-child {
+  border-bottom: none;
+}
+
+.info-item:hover {
+  background-color: #e8e8e8;
+}
+
+.info-bullet {
+  color: #999;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.info-content {
+  flex: 1;
+  font-size: 15px;
+}
+
+.info-date {
+  color: #888;
+  font-size: 14px;
+  margin-left: 10px;
+}
